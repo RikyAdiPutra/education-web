@@ -1,8 +1,10 @@
-
+import Herosection from "./components/herosection"
+import Sectiondua from "./components/sectiondua"
 export default function Home() {
   return (
     <div>
-      abc1
+      <Herosection></Herosection>
+      <Sectiondua></Sectiondua>
     </div>
   )
 }
