@@ -181,8 +181,173 @@
     margin-right: -24px;
 }
 
-
 /* SECTION HERO IMAGES */
+/* SECTION DUA START*/
+.sectiondua {
+    background: #fff;
+    min-height: 496px;
+    display: flex;
+}
+
+.left-second-section {
+    width: 54%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    -ms-justify-content: center;
+}
+
+.right-second-section {
+    width: 46%;
+    height: auto;
+    color: #757575;
+}
+
+.right-second-section h2 {
+    color: #000000;
+    font-size: 2.813rem;
+    line-height: 3.25rem;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.right-second-section p {
+    display: block;
+    margin: 32px 0px;
+}
+
+.wording-second-section {
+    width: 100%;
+}
+
+.interactive-second-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrp-icon-shoes {
+    background: #F2D4DC;
+    height: 144px;
+    width: 114px;
+    border-radius: 14.5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-justify-content: center;
+    position: relative;
+}
+
+.wrp-icon-shoes::after {
+    content: " ";
+    background: #fff;
+    height: 144px;
+    width: 114px;
+    border-radius: 14.5px;
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+}
+
+.wrp-icon-shoes::before {
+    content: " ";
+    background: #F2D4DC;
+    height: 144px;
+    width: 114px;
+    border-radius: 14.5px;
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    top: 24px;
+}
+
+.wrp-icon-shoes h6 {
+    font-size: 0.813rem;
+    line-height: 1.285rem;
+    color: #945069;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.wrp-icon-shoes h6 svg {
+    width: 10px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.wrp-icon-shoes img {
+    z-index: 3;
+    position: relative;
+}
+
+.wrp-icon-speaker {
+    background: #C3DCE3;
+    height: 143px;
+    width: 164px;
+    border-radius: 14.5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-justify-content: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+.wrp-icon-speaker::after {
+    content: " ";
+    background: #fff;
+    height: 144px;
+    width: 164px;
+    border-radius: 14.5px;
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+}
+
+.wrp-icon-speaker::before {
+    content: " ";
+    background: #C3DCE3;
+    height: 144px;
+    width: 164px;
+    border-radius: 14.5px;
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    top: 24px;
+}
+
+.wrp-icon-speaker h6 {
+    font-size: 0.813rem;
+    line-height: 1.285rem;
+    color: #2B788B;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.wrp-icon-speaker h6 svg {
+    width: 10px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.wrp-icon-speaker img {
+    z-index: 3;
+    position: relative;
+}
+
+/* SECTION DUA END*/
+
+
 .footer {
     background: #F6F5F4;
     min-height: 50px;
