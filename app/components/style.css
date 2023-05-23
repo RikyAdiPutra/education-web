@@ -52,6 +52,137 @@
     align-items: center;
 }
 
+/* SECTION HERO IMAGES */
+
+.section-hero-image {
+    background: #F6F5F4;
+    width: 100%;
+    min-height: 654px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    -ms-align-items: center;
+}
+
+.left-section-text {
+    width: 100%;
+    height: auto;
+}
+
+
+.left-hero-image {
+    width: 46%;
+    height: auto;
+}
+
+.left-hero-image h5 {
+    color: #2B788B;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    margin-bottom: 24px;
+}
+
+.left-hero-image h1 {
+    color: #000000;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    font-family: "Dela Gothic One", sans-serif;
+    margin-bottom: 24px;
+}
+
+.left-hero-image p {
+    display: block;
+    margin: 36px 0px;
+    color: #757575;
+}
+
+.btn-primary {
+    background: #C3DCE3;
+    padding: 10px 16px;
+    color: #2B788B;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 29px;
+    clear: both;
+}
+
+.left-section-infograph {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -ms-align-items: center;
+}
+
+.infograph-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    -ms-align-items: center;
+    margin: 36px 0px 46px 0px;
+    justify-content: center;
+}
+
+.infograph-column:first-child {
+    border-right: 1px solid #ededed;
+    margin-left: -48px;
+}
+
+.infograph-icon-text {
+    width: auto;
+    display: flex;
+    align-items: center;
+    -ms-align-items: center;
+}
+
+.infograph-icon-text h2 {
+    color: #000000;
+    font-size: 2.813rem;
+    line-height: 3.25rem;
+    font-family: "Dela Gothic One", sans-serif;
+    margin-left: 6px;
+}
+
+.infograph-icon-text h2 span {
+    color: #2B788B;
+    font-size: 3.2rem;
+    line-height: 3.25rem;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    margin-left: 6px;
+}
+
+.infograph-icon-text img {
+    margin-top: 10px;
+}
+
+.infograph-column p {
+    margin: 0px;
+    width: 100%;
+    display: unset;
+    text-align: center;
+}
+
+.right-hero-image {
+    width: 54%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    -ms-justify-content: center;
+}
+
+.right-hero-image img {
+    margin-right: -24px;
+}
+
+
+/* SECTION HERO IMAGES */
 .footer {
     background: #F6F5F4;
     min-height: 50px;
@@ -74,7 +205,7 @@
     padding-left: 0;
 }
 
-.footer .top{
+.footer .top {
     display: flex;
     width: 100%;
     justify-content: space-between;
