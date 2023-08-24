@@ -4,7 +4,7 @@ import "./style.css"
 
 export default function Sectiontiga() {
      return (
-          <div className="container">
+          <div className="container-tiga">
                <div className="main">
                     <div className="section1">
                          <Image
