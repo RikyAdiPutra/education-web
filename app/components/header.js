@@ -14,8 +14,8 @@ export default function Header() {
           <Link href="/"><Image src="/images/logo.png" width={130} height={17} /></Link>
           <ul className="mainmenu">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/products">Products</Link></li>
+            <li><Link href="/">About</Link></li>
+            <li><Link href="/">Products</Link></li>
             <li><Link href="/">Games <FaAngleDown /></Link></li>
           </ul>
         </div>
